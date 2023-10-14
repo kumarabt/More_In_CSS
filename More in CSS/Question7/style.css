@@ -1,0 +1,35 @@
+.box{
+    width: 100vw;
+    height:50vh;
+}
+
+.content{
+    width:400px;
+    height:300px;
+    background-color: rgb(203, 203, 9);
+    border: 2px solid yellow;
+    border-radius: 5%;
+    margin: auto;
+    /* using margin auto we can place the content at centre of the parent container. */
+    padding-top: 20px;
+}
+
+img{
+   max-width:300px;
+   display: block; 
+   /* made the image display block so that using the margin auto property we can center it. */
+   margin: auto;
+   border-radius: 5%; 
+   }
+
+span{
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+/* using opacity property after hovering. */
+.content:hover{
+    opacity: 0.5;
+}

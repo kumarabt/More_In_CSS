@@ -1,0 +1,22 @@
+header h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.image{
+    width: 100vw;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin:auto;
+    /* used margin auto and made image display block so that image can be centered w.r.t. parent. */
+}
+
+.para{
+    
+    font-family: 'Montserrat', sans-serif;
+}

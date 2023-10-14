@@ -1,0 +1,21 @@
+nav{
+    width: 80vw;
+    height: 10vh;
+    background-color: rgb(19, 102, 244);
+    opacity: 0.75;
+}
+
+.link{
+    color: white;
+    width: 0.1em;
+    height:1em;
+    margin: 20px;
+    padding: 40px;
+    position: relative;
+    top:15px;
+}
+
+/* while hovering on items of nav bar the items will change their color to black.  */
+.link:hover{
+    color: black;
+}

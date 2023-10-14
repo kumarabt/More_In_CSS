@@ -1,0 +1,50 @@
+.parent{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(19, 102, 244);
+    position: relative;
+
+}
+
+.child{
+    width: 10%;
+    height: 100%;
+    position:absolute;
+    box-sizing: border-box;
+    padding-left:25px;
+    padding-top: 10px;
+    color: white;
+    border-width: 4px;
+    border-color: black;
+    text-decoration:underline;
+}
+
+Now, applying border-styling properties individually to diffrent childs,
+.child1{
+    border-style: solid;
+}
+
+.child2{
+    left:10%;
+    border-style: double;
+}
+
+.child3{
+    left:20%;
+    border-style: dotted;
+}
+
+.child4{
+    left:30%;
+    border-style: outset;
+}
+
+.child5{
+    left:40%;
+    border-style: dashed;
+}
+
+/* Applying hovering properties to the child so that on hovering its text changes it color to black. */
+.child:hover{
+    color: black;
+}

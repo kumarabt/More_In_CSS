@@ -1,0 +1,21 @@
+.webpage{
+    width: 100%;
+    height: 700px;
+    border: 4px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+} 
+
+h1{
+   text-align: center;
+}
+
+.content{
+    top:100px;
+    max-width:100%;
+}
+
+img{
+    
+    padding-left:40px;
+}
